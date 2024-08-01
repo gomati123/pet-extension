@@ -1,0 +1,53 @@
+/* timer-label.css */
+#timer-label {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1000;
+    padding: 10px;
+}
+
+#timer-controls button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#timer-controls button:hover {
+    background-color: #0056b3;
+}
+
+#timer-display {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#records-container {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#records-list {
+    list-style: none;
+    padding: 0;
+}
+
+#records-list li {
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
