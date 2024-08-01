@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet</title>
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="assets/videos/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="popup-container">
+        <h1>Meet Fluffy!</h1>
+        <div id="pet-container">
+            <img id="pet-image" src="assets/images/pet/neutral.png" alt="Pet Image">
+        </div>
+        <div id="status-container">
+            <div id="status">Pet is now: neutral</div>
+            <div id="happiness-level">Happiness: 62</div>
+        </div>
+        <div id="buttons-container">
+            <button id="give-attention">Give Attention</button>
+            <button id="play">Play</button>
+            <button id="feed">Feed</button>
+            <button id="dad-jokes">Dad Jokes</button>
+            <button id="quotes">Quotes</button>
+            <button id="todo-list">To-Do List</button>
+            <button id="pomodoro-timer">Pomodoro Timer</button>
+            <button id="book-summaries">Book Summaries</button>
+            <button id="chat-with-pet">Chat with Pet</button>
+            <button id="tracker">tracker</button>
+        </div>
+
+        <script src="js/popup.js"></script>
+    </div>
+</body>
+
+</html>

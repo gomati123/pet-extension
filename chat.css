@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#chat-container {
+    width: 100%;
+    max-width: 600px;
+    height: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    font-size: 16px; /* Increase font size */
+    line-height: 1.5; /* Increase line height for readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Stylish font */
+}
+
+#chat-messages div {
+    margin-bottom: 10px;
+}
+
+#chat-messages div:nth-child(odd) {
+    color: #fffefe; /* Dark color for user messages */
+}
+
+#chat-messages div:nth-child(even) {
+    color: #007BFF; /* Stylish color for pet responses */
+    font-weight: bold; /* Make pet responses bold */
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+}
+
+#user-input {
+    flex: 1;
+    padding: 15px; /* Increase padding for better look */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px; /* Increase font size */
+}
+
+#send-button {
+    padding: 15px 25px; /* Increase padding for better look */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make button text bold */
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}

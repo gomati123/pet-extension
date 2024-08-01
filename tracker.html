@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Time Tracker</title>
+    <link rel="stylesheet" href="tracker.css">
+</head>
+<body><hr>
+    <h2>Website Time Tracker</h2><hr><br>
+    <div id="tracker">
+        <button id="enable-tracker">Enable Tracker</button>
+        <button id="disable-tracker">Disable Tracker</button>
+       <hr><br> <table>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Time Spent (s)</th>
+                </tr>
+            </thead>
+            <tbody id="timeTable">
+                <!-- Time data will be injected here -->
+            </tbody>
+        </table>
+        <div id="currentSite">
+            <p>Current Site: <span id="siteName">N/A</span></p>
+            <p>Time Spent: <span id="currentSiteTime">0 s</span></p>
+        </div>
+    </div>
+
+    <script src="tracker.js"></script>
+</body>
+</html>
